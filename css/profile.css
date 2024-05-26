@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color:  #f0f2f5;
+    overflow-x: hidden;
+}
+
+.dropdown {
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    margin-left: -100px;
+}
+
+.navbar {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .1);  
+}
+
+img {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-container {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 400px;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.quotes {
+    text-align: center;
+    font-weight: 600;
+}
+
+/*.profile-container {
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-left: 100px;
+}*/
+
+.profile-container {
+    position: sticky;
+    top: 100px;
+    z-index: 1000;
+    background-color: #fff;
+    padding: 20px 0;
+    margin-left: 100px;
+    margin-bottom: -240px;
+
+}
+
+
+.row {
+    margin-left: 400px;
+}
+
+.card-title {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: -65px;
+    margin-bottom: 60px;
+}
+
+.card-text {
+    font-size: 40px;
+}
+
+.author {
+    font-size: 25px;
+    margin-bottom: -6px;
+}
+
+.creat_at {
+    font-size: 20px;   
+}
+
+.name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.email {
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.like-count {
+    font-size: medium;
+}
+
+.text {
+    position: sticky;
+}
+.fixed-card {
+    position: sticky;
+    top: 1000px;
+    z-index: 999; 
+}

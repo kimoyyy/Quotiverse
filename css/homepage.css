@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f0f2f5;
+    overflow-x: hidden; 
+}
+
+.dropdown {
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    margin-left: -100px;
+}
+
+.navbar {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .1);  
+}
+
+img {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-title {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 500px;
+    margin-left: 270px;
+    margin-bottom: -80px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+
+.card-text {
+    font-size: 40px;
+}
+
+.author {
+    font-size: 25px;
+    margin-bottom: -6px;
+}
+
+.creat_at {
+    font-size: 20px;   
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.random-container {
+    position: sticky;
+    top: 100px;
+    margin-left: -240px;
+}
+
+.post-container {
+    margin-left: 300px;
+}
+
+.postcard {
+    margin-top: -325px;
+}
+
+.fixed-card {
+    position: sticky;
+    top: 1000px;
+    z-index: 999; 
+}
